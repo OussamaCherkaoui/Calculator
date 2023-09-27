@@ -1,0 +1,128 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 97vh;
+    background-color: rgb(36, 156, 165);
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    background-color: black;
+    width: 25%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+}
+.item1,.item2,.item3,.item4,.item5,.item6,.item7
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex: 1;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+   
+}
+.item2{
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    border-style: hidden;
+    border-radius: 200px;
+    width: 65px;
+    height: 65px;
+    background-color:rgba(47, 79, 79, 0.473);
+    color: #FFFFFF;
+    font-size: 22px;
+}
+input{
+    font-size: 25px;
+    margin: 8px;
+    color: white;
+    background-color: black;
+    border-style: hidden;
+    text-align: end;
+}
+
+
+#buttonclear,#buttonaddsub,#buttonmodulo{
+    background-color:darkgrey;
+    color: black;
+    font-size:x-large;
+    transition: background-color 0.9s;
+}
+
+#buttondivision,#buttonmultiple,#buttonsubstract,#buttonadd,#buttonegal{
+    background-color: darkorange;
+    font-size:26px;
+    transition: background-color 0.9s;
+}
+#button0{
+    width: 150px;
+    text-align:left;
+    padding-left: 15px;
+}
+#button0,#button1,#button2,#button3,#button4,#button5,#button6,#button7,#button8,#button9,#buttonvergule{
+    transition: background-color 0.9s;
+}
+#buttonmodulo:hover{
+    background-color: #f0f0f0ec;
+}
+#buttonclear:hover{
+    background-color: #f0f0f0ec;
+}
+#buttonaddsub:hover{
+    background-color: #f0f0f0ec;
+}
+#button0:hover{
+    background-color: #ffffff67;
+}
+#button1:hover{
+    background-color: #ffffff67;
+}
+#button2:hover{
+    background-color: #ffffff67;
+}
+#button3:hover{
+    background-color: #ffffff67;
+}
+#button4:hover{
+    background-color: #ffffff67;
+}
+#button5:hover{
+    background-color: #ffffff67;
+}
+#button6:hover{
+    background-color: #ffffff67;
+}
+#button7:hover{
+    background-color: #ffffff67;
+}
+#button8:hover{
+    background-color: #ffffff67;
+}
+#button9:hover{
+    background-color: #ffffff67;
+}
+#buttonvergul:hover{
+    background-color: #ffffff67;
+}
+#buttonegal:hover{
+    background-color: rgb(255, 200, 134);;
+}
+#buttonadd:hover{
+    background-color: rgb(255, 200, 134);;
+}
+#buttonsubstract:hover{
+    background-color: rgb(255, 200, 134);;
+}
+#buttonmultiple:hover{
+    background-color: rgb(255, 200, 134);;
+}
+#buttondivision:hover{
+    background-color: rgb(255, 200, 134);;
+}
